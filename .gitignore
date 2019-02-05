@@ -1,0 +1,8 @@
+*
+!.gitignore
+!./fake_sensor/
+!./fake_sensor/package.json
+!./fake_sensor/sensor.js
+!./fake_sensor/yarn.lock
+
+!./server/
