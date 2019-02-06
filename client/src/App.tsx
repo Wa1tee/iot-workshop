@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Panel } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 
 interface State{
@@ -92,7 +92,15 @@ class App extends Component {
     console.log(this.state);
     return (
       <div className="App">
-        Konsta on homo  =D
+        <Grid>
+          <Col xs={12}>
+            <Panel>
+              <Panel.Heading>
+              Konsta :D
+              </Panel.Heading>
+            </Panel>
+          </Col>
+        </Grid>
       </div>
     );
   }
